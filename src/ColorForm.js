@@ -9,7 +9,7 @@ function ColorForm(props) {
     props.addColor(input); // Correctly access addColor from props
     setInput(''); // Reset input after submission
   };
-
+///
   return (
     <div>
       <form onSubmit={handleSubmit}>
